@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $resultado = $calculadora->suma($a, $b); 
     } elseif (isset($_POST['restaa'])) { 
         $resultado = $calculadora->resta($a, $b); 
-    } elseif (isset($_POST['multiplicacion'])) { 
+    } elseif (isset($_POST['multiplicacioon'])) { 
         $resultado = $calculadora->multiplicacion($a, $b); 
     } elseif (isset($_POST['division'])) {
         $resultado = $calculadora->division($a, $b); 
