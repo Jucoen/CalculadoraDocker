@@ -3,7 +3,7 @@ FROM php:8.3-apache
 # Copy application files
 COPY . /var/www/html
 
-# Update package lists and install required dependencies in a single step
+# Update package lists and install required dependencies in a single steps
 RUN apt-get update && apt-get install -y \
     apt-utils nano zip unzip git curl gnupg \
     && docker-php-ext-install mysqli pdo pdo_mysql \
