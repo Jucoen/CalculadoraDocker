@@ -16,7 +16,7 @@ services:
     ports:
       - "8080:80"
 
-phpmyadmin:
+  phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     container_name: contenedorPhpMyAdmin
     environment:
