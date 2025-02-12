@@ -1,7 +1,7 @@
 services:
   db:
     image: jumice93/calculadora:v1
-    container_name: contenedorMiApp
+    container_name: contenedordb
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: cine
